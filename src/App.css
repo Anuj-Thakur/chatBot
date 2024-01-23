@@ -9,8 +9,8 @@ html {
 }
 
 body {
-  background: rgb(34, 28, 90);
-  color: white;
+  background: #0693e3;
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -19,32 +19,14 @@ body {
   display: flex;
 }
 
-.sideBar {
-  flex: 3;
-  border: 1px solid rgb(100, 100, 100);
-}
-
 .main {
   flex: 15;
 }
 
-.logo {
-  margin-right: 1rem;
-  width: 40px;
-  text-align: center;
-  margin-left: 45px;
-}
-
-.brand {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.sidebarTop {
-  padding: 2.5rem;
-  text-align: center;
-  margin-left: 30px;
-  display: flex;
+.sidepanel {
+  width: 25%;
+  background-color: white;
+  ;
 }
 
 .main {
@@ -59,36 +41,12 @@ body {
 
 .chats {
   overflow: hidden;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
   width: 100%;
   max-width: 95rem;
   height: calc(100vh - 17rem);
 }
 
-.chat {
-  margin: 1rem;
-  padding: 2rem 3rem;
-  font-size: 1.2rem;
-  display: flex;
-  align-items: flex-start;
-  text-align: justify;
-}
-
-.chatImg {
-  object-fit: cover;
-  width: 3.5rem;
-  margin-right: 2rem;
-  border-radius: 0.5rem;
-}
-
-.bot {
-  background: rgb(62, 67, 135);
-  width: fit-content;
-  border-radius: 0.5rem;
-}
-
-.chatFooter {
+/* .search-bar {
   margin-top: auto;
   width: 100%;
   display: flex;
@@ -96,26 +54,27 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 0;
-}
+} */
 
 .inp {
-  padding: 0.5rem;
-  background: rgb(62, 67, 135);
+  padding: 0.2rem;
+  background: rgb(255, 255, 255);
   display: flex;
-  align-items: center;
+  align-items: right;
   border-radius: 0.5rem;
-  width: 95rem;
+  width: 85rem;
 }
 
 .inp>input {
   width: calc(100% - 3rem);
   outline: none;
   padding: 1.25rem;
-  color: white;
+  color: rgb(16, 2, 2);
 }
 
 .inp>input,
 .send {
   background: transparent;
   border: none;
+  text-emphasis-color: black;
 }
